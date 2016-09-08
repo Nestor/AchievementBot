@@ -60,7 +60,7 @@ if($tsAdmin->getElement('success', $tsAdmin->connect())) {
 		}
 	}
 }else{
-	echo 'Connection could not be established.';
+	echo 'Connection could not be established.\n';
 }
 
 if(count($tsAdmin->getDebugLog()) > 0) {
